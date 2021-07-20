@@ -20,12 +20,16 @@
 
 
 #define OPENSSL_NO_ASYNC
+#ifndef OPENSSL_NO_BF
 #define OPENSSL_NO_BF
+#endif
 #define OPENSSL_NO_BLAKE2
 #define OPENSSL_NO_BUF_FREELISTS
 #define OPENSSL_NO_CAMELLIA
 #define OPENSSL_NO_CAPIENG
+#ifndef OPENSSL_NO_CAST
 #define OPENSSL_NO_CAST
+#endif
 #define OPENSSL_NO_CMS
 #define OPENSSL_NO_COMP
 #define OPENSSL_NO_CT
